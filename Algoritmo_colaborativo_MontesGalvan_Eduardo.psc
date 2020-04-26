@@ -1,15 +1,20 @@
-Algoritmo Operación
+Algoritmo  OperaciÃ³n
 	
-	Escribir "CALCULA LA MEDIA DE DOS NÚMEROS"
+	Escribir  "CALCULA LA MEDIA DE DOS NÃšMEROS"
 	
-	Escribir "Ingrese el primer número:"
-	Leer A
+	Escribir  "Ingrese el primer nÃºmero:"
+	Leer  A
+	Si A<0 entonces
+		Escribir "No aceptado, el nÃºmero tiene que se positivo"
+	FinSi
+	Escribir  "Ingrese el segundo nÃºmero:"
+	Leer  B
+	Si B<0 Entonces
+		Escribir "No aceptado, el nÃºmero tiene que se positivo"
+	FinSi
 	
-	Escribir "Ingrese el segundo número:"
-	Leer B
+	C  <- ( A + B ) / 2
 	
-	C <-(A*B)/5
-	
-	Escribir "El resultado es: ", A
+	Escribir  "El resultado es:" , C
 	
 FinAlgoritmo
